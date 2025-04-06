@@ -1,0 +1,20 @@
+
+[
+  {
+    "nome": "Smartphone XYZ",
+    "marca": "XYZ Corp",
+    "origine": "Giappone",
+    "produzione": "Cina",
+    "immagine": "img/prodotti/smartphone.jpg",
+    "descrizione": "Un smartphone innovativo con funzionalità avanzate."
+  },
+  {
+    "nome": "Caffè Supremo",
+    "marca": "Caffè Italia",
+    "origine": "Italia",
+    "produzione": "Italia",
+    "immagine": "img/prodotti/caffe.jpg",
+    "descrizione": "Un caffè espresso di alta qualità proveniente dalle migliori terre italiane."
+  }
+]
+    

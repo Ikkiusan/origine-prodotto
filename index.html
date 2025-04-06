@@ -1,13 +1,43 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Origine Prodotto by Nick</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Origine Prodotto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Origine Prodotto</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <!-- Immagine di presentazione sulla homepage -->
+  <section class="home-presentation">
+    <img src="img/presentazione.jpg" alt="Presentazione del sito">
+  </section>
+
+  <!-- Sezione per mostrare i prodotti -->
+  <section id="prodotti">
+    <h2>Prodotti Recenti</h2>
+    <div id="lista-prodotti"></div>
+  </section>
+
+  <!-- Pagine prodotto -->
+  <section id="prodotto-details" class="hidden">
+    <div id="prodotto-imagen"></div>
+    <h3 id="prodotto-nome"></h3>
+    <p id="prodotto-marca"></p>
+    <p id="prodotto-origine"></p>
+    <p id="prodotto-produzione"></p>
+    <p id="prodotto-descrizione"></p>
+    <button onclick="goHome()">Torna alla Home</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>
+    
